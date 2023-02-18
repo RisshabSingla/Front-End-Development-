@@ -38,11 +38,12 @@ const sleep = async (seconds) => {
 }
 
 const showHack = async (message) => {
-        await sleep(2)
+        await sleep(0.5)
         // console.log(message)
         text.innerHTML = text.innerHTML + message + "<br>"
 }
 
+//  Immediately Invoked Async Function Expression -> immediately invoked
 (async () => {
         for (let i = 0; i < a.length; i++) {
                 await showHack(a[i])
