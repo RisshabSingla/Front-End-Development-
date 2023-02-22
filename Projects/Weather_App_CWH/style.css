@@ -1,0 +1,50 @@
+.body{
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6FOMag36c2GL2q01c7pJOi9BwXYfGPGbhuyDTXfw_t4GDVSyIE2Fj6-Nz9otTudm-T5c&usqp=CAU"); */
+    background-color:#8A2BE2 ;
+}
+
+
+.card_placed{
+    width:20%;
+    margin-left: 20px;
+}
+
+.table_element{
+    padding-right: 30px;
+}
+
+#weather{
+    color: white;
+}
+
+.nav-link{
+    font-size: 22px;
+}
+
+.btn-outline-success{
+    border-color: #83E22B;
+    background-color: white;
+    color: #2F2BE2;
+    font-size: 20px;
+
+}
+.form-control::placeholder{
+    color: #2F2BE2;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+
+.btn-outline-success:hover{
+    background-color: #2F2BE2;
+    border-color: #2F2BE2;
+}
+
+#search_box{
+    width: 30%;
+}
+
+#div_search{
+    padding: auto;
+    background-color: #8A2BE2;
+}
